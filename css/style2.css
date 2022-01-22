@@ -1,0 +1,18 @@
+body
+{
+    background-image: url(img/2021-08-27_19.50.40.png);
+    width: max-content;
+}
+#fond
+{
+    position: absolute;
+	top: 54%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    width: 1920px;
+    background-color: white;
+    height: 730px;
+    font-family: "Source code pro", Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color:#1c1c1c;
+}
