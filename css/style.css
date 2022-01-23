@@ -1,6 +1,6 @@
 body
 {
-	background-image: url(backgroundimage.png);
+	background-image: url(../img/background.png);
 	width: max-content;
 }
 
