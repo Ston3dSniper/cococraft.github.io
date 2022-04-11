@@ -1,12 +1,13 @@
 html
 {
 	text-align: center;
+	background-repeat: no-repeat
 }
 body
 {
 	background-image: url(../img/background.png);
 	background-repeat: no-repeat;
-	background-position: left top;
+
 }
 
 #logo
@@ -16,6 +17,11 @@ body
 	left: 45%;
 	transform: translate(-50%,-50%);
 	cursor: pointer;
+}
+
+.ronde
+{
+	border-radius: 50%;
 }
 
 #Accueil
@@ -108,14 +114,4 @@ p
 	left: 50%;
 	transform: translate(-50%,-50%);
 	color: white;
-}
-
-#myCanvas {
-	background-color: black;
-	margin: 0 auto;
-	vertical-align: bottom;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 }
