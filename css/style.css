@@ -19,7 +19,6 @@ body
 	color: white;
 	cursor: pointer;
 	transition: 0.25s;
-	margin-top: 1%;
 }
 
 a
@@ -38,32 +37,19 @@ a
 
 .image
 {
-	position: absolute;
-	top: 30%;
-	left: 32%;
+	display: flex;
+	justify-content: center;
+	margin-top: 250px;
 	transition: 0.50s;
 }
 
-.image img
-{
--webkit-transition: all 0s ease;
--moz-transition: all 0s ease;
-}
-
-.image:hover
-{
--webkit-transform: scale(1.25);
--moz-transform: scale(1.25);
-transform: scale(1.25);
-}
-
-.home-content
+p
 {
 	display: flex;
 	justify-content: center;
 	font-family: Arial;
 	font-size: 180%;
-	margin-top: -125px;
+	margin-top: 2px;
 	color: white;
 }
 
@@ -72,11 +58,5 @@ transform: scale(1.25);
 	display: flex;
 	justify-content: center;
 	position: relative;
-	margin-top: 500px;
-}
-
-@media screen ad (max-width: 900px){
-	.body{
-		width: 500px;
-	}
+	margin-top: 20px;
 }
