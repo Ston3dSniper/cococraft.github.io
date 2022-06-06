@@ -19,6 +19,7 @@ body
 	color: white;
 	cursor: pointer;
 	transition: 0.25s;
+	padding-top: 5px;
 }
 
 a
@@ -39,7 +40,7 @@ a
 {
 	display: flex;
 	justify-content: center;
-	margin-top: 250px;
+	margin-top: 300px;
 	transition: 0.50s;
 }
 
@@ -49,7 +50,7 @@ p
 	justify-content: center;
 	font-family: Arial;
 	font-size: 180%;
-	margin-top: 2px;
+	margin-top: 65px;
 	color: white;
 }
 
