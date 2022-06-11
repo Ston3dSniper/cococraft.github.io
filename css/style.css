@@ -1,63 +1,74 @@
-body
-{
-	background-image: url(../img/background.png);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+body {
+	background: url(../img/background.png) no-repeat center fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
-#menu
-{
+
+/* Navbar and links. */
+
+#navbar {
 	font-family: sans-serif;
-	font-size: 150%;
+	font-size: 28px;
 	color: white;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
 	grid-gap:35px;
-	color: white;
 	cursor: pointer;
 	transition: 0.25s;
-	padding-top: 5px;
+	/* padding-top: 0px; */
+	list-style: none;
 }
 
-a
-{
+.liens:hover {
+	padding-left: 5px;
+	color: #55a630;
+}
+
+
+/* Texts style. */
+
+a {
 	text-decoration: none;
 	color: white;
 	cursor: pointer;
 	transition: 0.25s;
 }
 
-.liens:hover
-{
-	padding-left: 5px;
-	color: #55a630;
+p {
+	display: flex;
+	justify-content: center;
+	font-family: Arial;
+	font-size: 28px;
+	margin-top: 20px;
+	color: white;
 }
 
-.image
-{
+
+/* Logo style. */
+
+.image {
 	display: flex;
 	justify-content: center;
 	margin-top: 300px;
 	transition: 0.50s;
 }
 
-p
-{
-	display: flex;
-	justify-content: center;
-	font-family: Arial;
-	font-size: 180%;
-	margin-top: 65px;
-	color: white;
-}
-
-#discord
-{
+#discord {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 40px;
+}
+
+
+/* Responsive */
+
+@media screen {
+	body{
+		width: 100%;
+	}
 }
